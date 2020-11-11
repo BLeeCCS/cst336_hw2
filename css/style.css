@@ -20,9 +20,9 @@ body {
     position: absolute;
     width: 20%;
     height: 100vh;
-    background-color: white;
+    background-color: #FFEBCD;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #aside1 {
@@ -49,7 +49,16 @@ body {
 
 .aside > div {
     width: 50%;
-    height: 18%;
-    background-color: blue;
+    height: 15%;
     position: relative;
+    margin: auto;
+}
+
+.aside > div > img {
+    width: auto;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid black;
 }
